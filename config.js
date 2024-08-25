@@ -77,7 +77,7 @@ module.exports = {
   LIST_TYPE: (process.env.LIST_TYPE || 'text').trim(),
   BING_COOKIE: (process.env.BING_COOKIE || '').trim(),
   GEMINI_API_KEY: (process.env.GEMINI_API_KEY || '').trim(),
-  ADMINS: process.env.GROUP_ADMINS || '',
+  ADMINS: process.env.GROUP_ADMINS || '255697263789',
   RENDER_NAME: (process.env.RENDER_NAME || '').trim(),
   RENDER_API_KEY: (process.env.RENDER_API_KEY || '').trim(),
   TIMEZONE: process.env.TIMEZONE,
